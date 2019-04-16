@@ -13,11 +13,14 @@ body {
   
 }
 #sections {
+    display: flex;
+    align-items: center;
     background-color: white;
-    height: 50px;
-    border-bottom: 2px solid black;
+
+    border-bottom: 1px solid black;
     border-bottom-right-radius: 70px;
-    border-bottom-left-radius: 70px;  
+    border-bottom-left-radius: 70px; 
+    border-top: 2px solid black; 
 }
 #adv {
     position: relative;
@@ -123,20 +126,23 @@ margin-left: 280px;
 }
 
 
-#border1 {
+.border1 {
     font-family: italic arial,sans-serif;
     font-weight: 600;
     color: #23434d;
     text-decoration: none;
-    position: absolute;
-left: 45px;
-top: 152px;
-border: 3px solid black;
-padding: 7px;
-border-width: 2px; 
-border-left: 20px;
-width: 460px; 
-text-align: center;
+
+    border-right: 3px solid black;
+    padding: 7px;
+    border-width: 2px; 
+    border-left: 20px;
+    width: 460px; 
+    text-align: center;
+}
+
+.border1:nth-child(4)
+{
+    border-right: 0px;
 }
 
 #border2 {
@@ -188,4 +194,14 @@ text-align: center;
     width: 400px; 
     text-align: center;
     
+}
+
+#cont{
+    text-decoration: none;
+    color: black;
+}
+
+#onas{
+    text-decoration: none;
+    color: black;
 }
