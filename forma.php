@@ -14,7 +14,6 @@
 <input name="email" id="email" maxlength="100" placeholder="Email адрес" required />
 <input name="surname" type="text" maxlength="100" placeholder="Фамилия" required />
 <input name="name" type="text" maxlength="100" placeholder="Имя" required/>
-<input name="Patronymic" maxlength="100" placeholder="Отчество" required />
 <input name="telephone" type="Tel" maxlength="100" placeholder="Телефон" required />
 <input name="password" type="password" maxlength="100" placeholder="Пароль" required/>
 <input name="repeat_password" type="repeat_password" maxlength="100" placeholder="Подтверждение пароля" required/>
