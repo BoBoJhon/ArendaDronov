@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
-<form action="link.php" method="POST" name="application">
+<form  method="POST" name="application">
 <input name="email" id="email" maxlength="100" placeholder="Email адрес" required />
 <input name="surname" type="text" maxlength="100" placeholder="Фамилия" required />
 <input name="name" type="text" maxlength="100" placeholder="Имя" required/>
