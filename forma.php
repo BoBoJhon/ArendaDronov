@@ -1,5 +1,11 @@
 <html>
 <head>
+    <?php
+    $link = mysqli_connect('127.0.0.1', 'root', '', 'babyshev'); //подключение к базе данных
+
+    $uid="1"; //логин
+    $key='qwerty'; //пароль
+    ?>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="">
 </head>
