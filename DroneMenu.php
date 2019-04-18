@@ -11,7 +11,7 @@
 <body>
 <?php
 $id=$_GET['id'];
-$json=file_get_contents('http://FETKULOV2/api/server2.php?login=admin&password=123456&query=select&table=Copters&fields=id,model,battery,id_blades,cost,camera_characteristic,advisory_services,range_flight,flight_time,max_speed&values=%22mavic%22,%221000V%22,%225000%22,%22topchick%22,%22yes%22,%223002%22,%2250%22,%221302%22,%22123%22');
+$json=file_get_contents('http://Babyshev/api/server.php?uid=1&key=qwerty&query=select&table=Copters&fields=id,model,battery,id_blades,cost,camera_characteristic,advisory_services,range_flight,flight_time,max_speed&values=%22mavic%22,%221000V%22,%225000%22,%22topchick%22,%22yes%22,%223002%22,%2250%22,%221302%22,%22123%22');
 echo $json;
 $result=json_decode($json, TRUE);
 echo "<br>";
